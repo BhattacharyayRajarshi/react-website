@@ -1,0 +1,108 @@
+.home{
+  background-color: black;
+  color: antiquewhite;
+  padding-left: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2rem;
+}
+
+.hh6{
+  padding-top: 1.6rem;
+}
+
+.page2{
+  background-color: black;
+  color: antiquewhite;
+  padding-left: 7rem;
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+}
+
+.page3{
+  color: black;
+  padding-bottom: 6rem;
+}
+
+.vid{
+  height : 50rem;
+  width : 60rem;
+  padding-left: 10rem;
+}
+
+.page4{
+  text-align: center;
+  padding-top: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 3rem;
+}
+
+.tt{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Team{
+  padding-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.sponsor{
+  height: 10rem;
+  width: 17rem;
+}
+
+.img2{
+  padding-right: 3.8rem;
+  padding-left: 4.8rem;
+  position: relative;
+  height: 26rem;
+  width: 35rem;
+}
+
+.img3{
+  padding-left: 1.8rem;
+  position: relative;
+  height: 40rem;
+  width: 37rem;
+}
+
+.hh4{
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.hh1{
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline white;
+}
+
+.hh11{
+  font-weight: bold;
+
+  padding-top: 2.5rem;
+}
+
+.img1{
+  padding-left: 1.8rem;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+}
+
+.cell{
+  width : 45rem;
+}
+
+.cell1{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  width : 45rem;
+  font-weight: 600;
+}
+
+.bt1{
+  border-radius: 180px;
+  padding-bottom: 2rem;
+  padding-top: 6.5rem;
+}
