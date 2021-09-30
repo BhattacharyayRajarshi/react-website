@@ -4,17 +4,57 @@
   padding-left: 7rem;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 2rem;
+  display: inline-block;
+}
+
+.head1{
+  background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.grad1 {
+  height: 5px;
+  width: 34rem;
+  position:relative;
+  left: 26rem;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+
+.b{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 4.5rem;
+}
+
+.a{
+  padding-top: 13rem;
+  position:relative;
 }
 
 .hh6{
   padding-top: 1.6rem;
 }
 
+.nav-color{
+  background-color: black;
+}
+
 .page2{
   background-color: black;
   color: antiquewhite;
   padding-left: 7rem;
-  padding-top: 0rem;
+  padding-top: 17rem;
   padding-bottom: 6rem;
 }
 
@@ -24,8 +64,8 @@
 }
 
 .vid{
-  height : 50rem;
-  width : 60rem;
+  height : 100%;
+  width : 100%;
   padding-left: 10rem;
 }
 
@@ -74,12 +114,10 @@
 .hh1{
   font-weight: bold;
   text-align: center;
-  text-decoration: underline white;
 }
 
 .hh11{
   font-weight: bold;
-
   padding-top: 2.5rem;
 }
 
