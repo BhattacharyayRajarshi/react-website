@@ -3,8 +3,10 @@
   color: antiquewhite;
   padding-left: 7rem;
   font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
   padding-bottom: 14rem;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .head1{
@@ -20,9 +22,14 @@
 
 .grad1 {
   height: 5px;
-  width: 34rem;
+  width: 69%;
   position:relative;
-  left: 26rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
@@ -31,6 +38,7 @@
 }
 
 .b{
+  display: block;
   position: absolute;
   left: 0;
   top: 0;
@@ -38,7 +46,9 @@
 }
 
 .a{
+  display: block;
   padding-top: 13rem;
+  right: 27%;
   position:relative;
 }
 
@@ -53,27 +63,48 @@
 .page2{
   background-color: black;
   color: antiquewhite;
-  padding-left: 7rem;
-  padding-top: 25rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .page3{
   color: black;
   padding-bottom: 6rem;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .vid{
-  height : 100%;
-  width : 100%;
-  padding-left: 10rem;
+    position: relative;
+    text-align: right;
+    width: 65vw;
+    left: 50%;
+    bottom: 0;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .page4{
-  text-align: center;
   padding-top: 3rem;
   font-family: 'Times New Roman', Times, serif;
   padding-bottom: 3rem;
+  align-items: center;
+  
+}
+
+.frnds{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .tt{
@@ -84,6 +115,7 @@
 .Team{
   padding-bottom: 2.5rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .sponsor{
@@ -95,15 +127,15 @@
   padding-right: 3.8rem;
   padding-left: 4.8rem;
   position: relative;
-  height: 26rem;
-  width: 35rem;
+  height: 80%;
+  width: 80%;
 }
 
 .img3{
   padding-left: 1.8rem;
   position: relative;
-  height: 40rem;
-  width: 37rem;
+  height: 40%;
+  width: 40%;
 }
 
 .hh4{
@@ -124,8 +156,8 @@
 .img1{
   padding-left: 1.8rem;
   position: relative;
-  height: 30rem;
-  width: 30rem;
+  height: 60%;
+  width: 60%;
 }
 
 .cell{
@@ -141,4 +173,5 @@
 
 .bt1{
   padding-top: 1rem;
+  border-radius: 30px;
 }
