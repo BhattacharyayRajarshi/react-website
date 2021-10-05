@@ -22,7 +22,7 @@
 
 .grad1 {
   height: 5px;
-  width: 69%;
+  width: 42%;
   position:relative;
   display: flex;
   text-align: center;
@@ -71,11 +71,58 @@
   justify-content: center;
 }
 
+.iflex{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.c{
+  display: inline-block;
+  width: 40%;
+  padding-right: 7rem;
+}
+
+.d{
+  display: inline-block;
+  justify-content: right;
+  width: 40%;
+  padding-left: 5rem;
+}
+
+.e{
+  display: inline-block;
+  width: 40%;
+  padding-right: 7rem;
+}
+
+.f{
+  display: inline-block;
+  justify-content: right;
+  width: 40%;
+  padding-left: 5rem;
+}
+
+.g{
+  display: inline-block;
+  width: 40%;
+  padding-right: 7rem;
+}
+
+.h{
+  display: inline-block;
+  justify-content: right;
+  width: 40%;
+  padding-left: 5rem;
+}
+
 .page5{
   background-color: black;
   color: antiquewhite;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   text-align: center;
   flex-direction: row;
   align-items: center;
@@ -85,6 +132,7 @@
 .page3{
   color: black;
   padding-bottom: 6rem;
+  padding-top: 6rem;
   text-align: center;
   flex-direction: row;
   align-items: center;
@@ -111,11 +159,12 @@
 }
 
 .frnds{
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
   align-content: center;
   justify-content: center;
-  margin-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  padding-left: 13rem;
 }
 
 .tt{
@@ -124,29 +173,33 @@
 }
 
 .Team{
-  padding-bottom: 2.5rem;
   font-weight: 700;
   text-align: center;
 }
 
 .sponsor{
+  padding-top: 2rem;
   height: 10rem;
   width: 17rem;
+  display: inline-block;
 }
 
 .img2{
-  padding-right: 3.8rem;
-  padding-left: 4.8rem;
+  padding-right: 17.8rem;
   position: relative;
-  height: 300px;
-  width: 36%;
+  height: 150%;
+  width: 150%;
+  min-height: 280px;
+  min-width: 600px;
 
 }
 
 .img3{
-  padding-left: 1.8rem;
   position: relative;
-  height: 300px;
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  min-width:200px;
 
 }
 
@@ -166,9 +219,11 @@
 }
 
 .img1{
-  padding-left: 1.8rem;
   position: relative;
-  height: 300px;
+  height: 100%;
+  width: 100%;
+  min-height: 350px;
+  min-width: 200px;
 
 }
 

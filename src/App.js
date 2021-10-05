@@ -45,7 +45,7 @@ class App extends React.Component {
     console.log(arr);
     return (
       <>
-        <div className="home"  id="home">
+        <div className="home" id="home">
           <div className="b">
             <video preload="auto" className="vid" autoPlay="true" muted playsInline>
               <source src={vid1} type="video/mp4" />
@@ -53,8 +53,8 @@ class App extends React.Component {
           </div>
           <div className="a">
             <h5 style={{ color: arr[6], fontSize: arr[23] }}>{arr[0]}</h5>
-            <h1 className="head1" style={{fontSize: arr[20]}}>{arr[1]}</h1>
-            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7]}}>{arr[0]}</h6>
+            <h1 className="head1" style={{ fontSize: arr[20] }}>{arr[1]}</h1>
+            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7] }}>{arr[0]}</h6>
             <div className="bt11">
               <Button className="bt1" variant="light"><b>Get Early Access</b></Button>
             </div>
@@ -76,37 +76,56 @@ class App extends React.Component {
         </div>
 
         <div className="page2">
-          <h1 className="hh1" style={{fontSize: arr[20]}}>{arr[13]}</h1>
+          <h1 className="hh1" style={{ fontSize: arr[20] }}>{arr[13]}</h1>
           <div className="grad1">
           </div>
-          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[13]}</h2>
-          <h4 className="hh4"style={{fontSize: arr[22]}}>{arr[14]}</h4>
-          <p style={{ color: arr[8], fontSize: arr[9] }}>{arr[12]}</p>
-          <h4 className="hh4"style={{fontSize: arr[22]}}>{arr[15]}</h4>
-          <p style={{ color: arr[8], fontSize: arr[9] }}>{arr[12]}</p>
-          <img className="img1" src={img1} alt="none" />
+          <div className="iflex">
+            <div className="c">
+              <h2 className="hh11" style={{ fontSize: arr[21] }}>{arr[13]}</h2>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[14]}</h4>
+              <p style={{ color: arr[8], fontSize: arr[9], textAlign: "left" }}>{arr[12]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[15]}</h4>
+              <p style={{ color: arr[8], fontSize: arr[9], textAlign: "left" }}>{arr[12]}</p>
+            </div>
+            <div className="d">
+              <img className="img1" src={img1} alt="none" />
+            </div>
+          </div>
         </div>
 
         <div className="page3" id="features">
-          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[17]}</h2>
-          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[18]}</h4>
-          <p style={{ color: arr[10], fontSize: arr[11] }}>{arr[16]}</p>
-          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[19]}</h4>
-          <p style={{ color: arr[10], fontSize: arr[11] }}>{arr[16]}</p>
-          <img className="img2" src={img2} alt="none" />
+          <div className="iflex">
+            <div className="e">
+              <img className="img2" src={img2} alt="none" />
+            </div>
+            <div className="f">
+              <h2 className="hh11" style={{ fontSize: arr[21] }}>{arr[17]}</h2>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[18]}</h4>
+              <p style={{ color: arr[10], fontSize: arr[11], textAlign: "left" }}>{arr[16]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[19]}</h4>
+              <p style={{ color: arr[10], fontSize: arr[11], textAlign: "left" }}>{arr[16]}</p>
+            </div>
+          </div>
         </div>
 
         <div className="page5" id="pricing">
-          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[5]}</h2>
-          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[2]}</h4>
-          <p>{arr[4]}</p>
-          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[3]}</h4>
-          <p>{arr[4]}</p>
-          <img className="img3" src={img3} alt="none" />
+          <div className="iflex">
+            <div className="g">
+              <h2 className="hh11" style={{ fontSize: arr[21] }}>{arr[5]}</h2>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[2]}</h4>
+              <p style={{textAlign: "left"}}>{arr[4]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[3]}</h4>
+              <p style={{textAlign: "left"}}>{arr[4]}</p>
+            </div>
+            <div className="h">
+              <img className="img3" src={img3} alt="none" />
+            </div>
+          </div>
         </div>
 
         <div className="page4">
-          <h1 className="Team">Our Team's Background <br /></h1>
+          <h1 className="Team">Our Team's Background</h1>
+          <div className="grad1"></div>
           <div className="frnds">
             <img className="sponsor" src="https://www.logo.wine/a/logo/Apple_Pay/Apple_Pay-Logo.wine.svg" />
             <img className="sponsor" src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" />
