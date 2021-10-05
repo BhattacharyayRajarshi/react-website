@@ -55,7 +55,7 @@ class App extends React.Component {
             <h5 style={{ color: arr[6], fontSize: arr[23] }}>{arr[0]}</h5>
             <h1 className="head1" style={{fontSize: arr[20]}}>{arr[1]}</h1>
             <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7]}}>{arr[0]}</h6>
-            <div className="bt1">
+            <div className="bt11">
               <Button className="bt1" variant="light"><b>Get Early Access</b></Button>
             </div>
           </div>
