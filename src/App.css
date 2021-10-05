@@ -47,7 +47,9 @@
 
 .a{
   display: block;
+  width: 40%;
   padding-top: 19rem;
+  padding-right: 9rem;
   right: 27%;
   position:relative;
 }
@@ -74,6 +76,14 @@
 .iflex{
   display: flex;
   text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.iflex1{
+  display: flex;
+  text-align: left;
   flex-direction: row;
   align-items: center;
   justify-content: center;

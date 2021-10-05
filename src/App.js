@@ -46,6 +46,7 @@ class App extends React.Component {
     return (
       <>
         <div className="home" id="home">
+        <div className="iflex1">
           <div className="b">
             <video preload="auto" className="vid" autoPlay="true" muted playsInline>
               <source src={vid1} type="video/mp4" />
@@ -54,10 +55,11 @@ class App extends React.Component {
           <div className="a">
             <h5 style={{ color: arr[6], fontSize: arr[23] }}>{arr[0]}</h5>
             <h1 className="head1" style={{ fontSize: arr[20] }}>{arr[1]}</h1>
-            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7] }}>{arr[0]}</h6>
+            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7] }}>{arr[24]}</h6>
             <div className="bt11">
               <Button className="bt1" variant="light"><b>Get Early Access</b></Button>
             </div>
+          </div>
           </div>
         </div>
 
