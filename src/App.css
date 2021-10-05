@@ -4,7 +4,7 @@
   padding-left: 7rem;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-around;
-  padding-bottom: 14rem;
+  padding-bottom: 6rem;
   display: flex;
   flex-direction: row;
 }
@@ -47,7 +47,7 @@
 
 .a{
   display: block;
-  padding-top: 13rem;
+  padding-top: 19rem;
   right: 27%;
   position:relative;
 }
@@ -65,6 +65,17 @@
   color: antiquewhite;
   padding-top: 8rem;
   padding-bottom: 6rem;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.page5{
+  background-color: black;
+  color: antiquewhite;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
   flex-direction: row;
   align-items: center;
@@ -127,15 +138,15 @@
   padding-right: 3.8rem;
   padding-left: 4.8rem;
   position: relative;
-  height: 80%;
-  width: 80%;
+  height: 300px;
+
 }
 
 .img3{
   padding-left: 1.8rem;
   position: relative;
-  height: 40%;
-  width: 40%;
+  height: 300px;
+
 }
 
 .hh4{
@@ -156,8 +167,8 @@
 .img1{
   padding-left: 1.8rem;
   position: relative;
-  height: 60%;
-  width: 60%;
+  height: 300px;
+
 }
 
 .cell{
@@ -173,4 +184,5 @@
 
 .bt1{
   border-radius: 30px;
+  padding-top: 4rem;
 }

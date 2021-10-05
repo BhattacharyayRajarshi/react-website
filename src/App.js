@@ -4,6 +4,7 @@ import React from 'react';
 import * as firebase from '../node_modules/firebase/app';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import { Button, Nav, Container, NavbarBrand, Navbar, NavLink, } from 'react-bootstrap';
 import img1 from './img1.jpeg';
 import img2 from './img2.jpeg';
@@ -44,16 +45,16 @@ class App extends React.Component {
     console.log(arr);
     return (
       <>
-        <div className="home">
+        <div className="home"  id="home">
           <div className="b">
             <video preload="auto" className="vid" autoPlay="true" muted playsInline>
               <source src={vid1} type="video/mp4" />
             </video>
           </div>
           <div className="a">
-            <h5 style={{ color: arr[6] }}>{arr[0]}</h5>
-            <h1 className="head1">{arr[1]}</h1>
-            <h6 className="hh6" style={{ color: arr[6] }}>{arr[0]}</h6>
+            <h5 style={{ color: arr[6], fontSize: arr[23] }}>{arr[0]}</h5>
+            <h1 className="head1" style={{fontSize: arr[20]}}>{arr[1]}</h1>
+            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7]}}>{arr[0]}</h6>
             <div className="bt1">
               <Button className="bt1" variant="light"><b>Get Early Access</b></Button>
             </div>
@@ -61,47 +62,45 @@ class App extends React.Component {
         </div>
 
         <div>
-          <Navbar className="nav-color" fixed="top" bg="black" variant="dark">
+          <Navbar className="nav-color" fixed="top" bg="black" variant="dark" collapseOnSelect={true}>
             <Container>
               <Navbar.Brand href="#home"><h1><i>Abc</i>Bank</h1></Navbar.Brand>
-              <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
-              <Navbar.Collapse className="justify-content-end">
-                <Nav className="topnav-right">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#features">Features</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-              </Navbar.Collapse>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" className="order-md-1 order-0" />
+              <Nav className="topnav-right">
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#features">Features</Nav.Link>
+                <Nav.Link href="#pricing">Pricing</Nav.Link>
+              </Nav>
             </Container>
           </Navbar>
         </div>
 
         <div className="page2">
-          <h1 className="hh1">{arr[13]}</h1>
+          <h1 className="hh1" style={{fontSize: arr[20]}}>{arr[13]}</h1>
           <div className="grad1">
           </div>
-          <h2 className="hh11">{arr[13]}</h2>
-          <h4 className="hh4">{arr[14]}</h4>
-          <p style={{ color: arr[8] }}>{arr[12]}</p>
-          <h4 className="hh4">{arr[15]}</h4>
-          <p style={{ color: arr[8] }}>{arr[12]}</p>
+          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[13]}</h2>
+          <h4 className="hh4"style={{fontSize: arr[22]}}>{arr[14]}</h4>
+          <p style={{ color: arr[8], fontSize: arr[9] }}>{arr[12]}</p>
+          <h4 className="hh4"style={{fontSize: arr[22]}}>{arr[15]}</h4>
+          <p style={{ color: arr[8], fontSize: arr[9] }}>{arr[12]}</p>
           <img className="img1" src={img1} alt="none" />
         </div>
 
-        <div className="page3">
-          <h2 className="hh11">{arr[17]}</h2>
-          <h4 className="hh4">{arr[18]}</h4>
-          <p style={{ color: arr[10] }}>{arr[16]}</p>
-          <h4 className="hh4">{arr[19]}</h4>
-          <p style={{ color: arr[10] }}>{arr[16]}</p>
+        <div className="page3" id="features">
+          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[17]}</h2>
+          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[18]}</h4>
+          <p style={{ color: arr[10], fontSize: arr[11] }}>{arr[16]}</p>
+          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[19]}</h4>
+          <p style={{ color: arr[10], fontSize: arr[11] }}>{arr[16]}</p>
           <img className="img2" src={img2} alt="none" />
         </div>
 
-        <div className="page2">
-          <h2 className="hh11">{arr[5]}</h2>
-          <h4 className="hh4">{arr[2]}</h4>
+        <div className="page5" id="pricing">
+          <h2 className="hh11" style={{fontSize: arr[21]}}>{arr[5]}</h2>
+          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[2]}</h4>
           <p>{arr[4]}</p>
-          <h4 className="hh4">{arr[3]}</h4>
+          <h4 className="hh4" style={{fontSize: arr[22]}}>{arr[3]}</h4>
           <p>{arr[4]}</p>
           <img className="img3" src={img3} alt="none" />
         </div>
