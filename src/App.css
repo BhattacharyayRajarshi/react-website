@@ -128,6 +128,7 @@
     display: inline-block;
     justify-content: right;
     width: 40%;
+    padding-bottom: 8rem;
     padding-left: 5rem;
   }
 
@@ -233,8 +234,8 @@
   .hh4{
     font-weight: 600;
     font-size: 5px;
-    padding-top: 1rem;
     text-align: left;
+    padding-top: 1,6rem;
   }
 
   .hh1{
@@ -246,14 +247,14 @@
   .hh11{
     font-weight: 700;
     padding-top: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     text-align: left;
   }
 
   .hh11s{
     font-weight: 700;
     padding-top: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     text-align: center;
   }
 
