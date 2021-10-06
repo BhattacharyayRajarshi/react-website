@@ -67,7 +67,7 @@ class App extends React.Component {
           <Navbar className="nav-color" fixed="top" bg="black" variant="dark" collapseOnSelect={true}>
             <Container>
               <Navbar.Brand href="#home"><h1><i>Abc</i>Bank</h1></Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" className="order-md-1 order-0" />
+              <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
               <Nav className="topnav-right">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#features">Features</Nav.Link>

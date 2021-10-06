@@ -277,7 +277,7 @@
 }
 
 
-@media only screen and (max-width: 824px){ 
+@media only screen and (max-width: 724px){ 
   .home{
    background-color: black;
    color: #fff;
@@ -373,6 +373,8 @@
 
  .c{
    text-align: center;
+   padding-left: 2rem;
+   padding-right: 1.5rem;
  }
 
  .d{
@@ -389,6 +391,8 @@
 
  .g{
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
  }
 
  .h{
@@ -420,12 +424,11 @@
  .vid{
      position: relative;
      text-align: right;
-     width: 65vw;
-     left: 50%;
+     width: 55vw;
+     left: 10%;
      bottom: 0;
      height: 100%;
-     align-items: flex-end;
-     justify-content: flex-end;
+     
  }
 
  .page4{
