@@ -30,6 +30,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-weight: Regular;
+      width: 667px;
       padding-top: 0.6rem;
   }
 
@@ -93,8 +94,9 @@
 
   .a{
     display: inline-block;
+    white-space: normal;
     width: 40%;
-    padding-top: 19rem;
+    padding-top: 12rem;
     padding-right: 9rem;
     right: 67%;
     position:relative;
@@ -172,7 +174,9 @@
   .g{
     display: inline-block;
     width: 40%;
+    margin-top: 1.3rem;
     padding-right: 2rem;
+    margin-left: 4.5rem;
   }
 
   .h{
@@ -286,9 +290,26 @@
 
   .hh11{
     font-weight: 700;
+    width: 552px;
+    margin-top: 3.5rem;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
     text-align: left;
+  }
+
+  .hello1{
+    font-size: 22px;
+    width: 116px;
+  }
+
+  .hello2{
+    font-size: 22px;
+    width: 160px;
+  }
+
+  .hello3{
+    font-size: 22px;
+    width: 150px;
   }
 
   .hh11s{
@@ -343,6 +364,7 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    font-weight: bolder;
+   width: 120%;
  }
 
  .grad1 {
@@ -393,7 +415,7 @@
    width: 140%;
    padding-top: 19rem;
    padding-right: 9rem;
-   right: 27%;
+   right: 100px;
    position:relative;
  }
 
@@ -544,6 +566,7 @@
    padding-top: 2.5rem;
    padding-bottom: 1rem;
    text-align: left;
+   width: 100%;
  }
 
  .img1{
