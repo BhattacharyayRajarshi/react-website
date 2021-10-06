@@ -69,7 +69,7 @@ class App extends React.Component {
             </div>
             <div className="a">
               <h5 style={{ fontSize: arr[23], paddingBottom: "20px", lineHeight: "24px", letterSpacing: "2%", color: "#fdfdfd", fontWeight: "Regular", fontSize: "24px", width: "474px", height: "24px", fontFamily: "Inter" }}>{arr[0]}</h5>
-              <h5 className="head1" style={{ marginBottom: "30px", fontSize: arr[20], lineHeight: "65px", letterSpacing: "2%", fontWeight: "100px", fontSize: "55px", height: "130px", fontFamily: "Inter" }}>{arr[1]}</h5>
+              <h5 className="head1" style={{ marginBottom: "30px", lineHeight: "65px", letterSpacing: "2%", fontWeight: "100px", height: "130px", fontFamily: "Inter" }}>{arr[1]}</h5>
               <h6 className="hh6" >{arr[24]}</h6>
               <div className="bt11">
                 <Button className="bt1" style={{ backgroundColor: "#dddddd", color: "#020102" }}><b>Get Early Access</b></Button>
