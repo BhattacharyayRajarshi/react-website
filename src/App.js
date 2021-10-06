@@ -46,48 +46,48 @@ class App extends React.Component {
     return (
       <>
         <div className="home" id="home">
-        <div className="iflex1">
-          <div className="b">
-            <video preload="auto" className="vid" autoPlay="true" muted playsInline>
-              <source src={vid1} type="video/mp4" />
-            </video>
-          </div>
-          <div className="a">
-            <h5 style={{ color: arr[6], fontSize: arr[23] }}>{arr[0]}</h5>
-            <h1 className="head1" style={{ fontSize: arr[20] }}>{arr[1]}</h1>
-            <h6 className="hh6" style={{ color: arr[6], fontSize: arr[7] }}>{arr[24]}</h6>
-            <div className="bt11">
-              <Button className="bt1" variant="light"><b>Get Early Access</b></Button>
+          <div className="iflex1">
+            <div className="b">
+              <video preload="auto" className="vid" autoPlay={true} muted playsInline>
+                <source src={vid1} type="video/mp4" />
+              </video>
             </div>
-          </div>
+            <div className="a">
+              <h5 style={{ fontSize: arr[23], paddingBottom: "20px", lineHeight: "24px", letterSpacing: "2%", color: "#fdfdfd", fontWeight: "Regular", fontSize: "24px", width: "474px", height: "24px", fontFamily: "Inter" }}>{arr[0]}</h5>
+              <h5 className="head1" style={{ marginBottom: "30px", fontSize: arr[20], lineHeight: "65px", letterSpacing: "2%", fontWeight: "100px", fontSize: "55px", width: "667px", height: "130px", fontFamily: "Inter" }}>{arr[1]}</h5>
+              <h6 className="hh6" >{arr[24]}</h6>
+              <div className="bt11">
+                <Button className="bt1" style={{ backgroundColor: "#dddddd", color: "#020102" }}><b>Get Early Access</b></Button>
+              </div>
+            </div>
           </div>
         </div>
 
         <div>
           <Navbar className="nav-color" fixed="top" bg="black" variant="dark" collapseOnSelect={true}>
             <Container>
-              <Navbar.Brand href="#home"><h1><i>Abc</i>Bank</h1></Navbar.Brand>
+              <Navbar.Brand href="#home" style={{ fontFamily: "Work Sans", fontWeight: "mixed", color: "#dddddd" }}>     <h1><b><i>Abc</i></b>Bank</h1></Navbar.Brand>
               <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
               <Nav className="topnav-right">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="#home" style={{ fontFamily: "Inter", fontWeight: "bold", fontSize: "22px", color: "#FFFFFF", width: "116px", height: "30px" }}>Features</Nav.Link>
+                <Nav.Link href="#features" style={{ fontFamily: "Inter", fontWeight: "bold", fontSize: "22px", color: "#FFFFFF", width: "160px", height: "30px" }}>How it Works</Nav.Link>
+                <Nav.Link href="#pricing" style={{ fontFamily: "Inter", fontWeight: "bold", fontSize: "22px", color: "#FFFFFF", width: "150px", height: "30px" }}>Our Team</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
         </div>
 
         <div className="page2">
-          <h1 className="hh1" style={{ fontSize: arr[20] }}>{arr[13]}</h1>
+          <h1 className="hh1" style={{ fontSize: arr[20], fontFamily: "Frank Ruhl Libre" }}>{arr[13]}</h1>
           <div className="grad1">
           </div>
           <div className="iflex">
             <div className="c">
-              <h2 className="hh11" style={{ fontSize: arr[21] }}>Gamified Experience</h2>
-              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[14]}</h4>
-              <p style={{ color: arr[8], fontSize: arr[9], textAlign: "left"}}>{arr[12]}</p>
-              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[15]}</h4>
-              <p style={{ color: arr[8], fontSize: arr[9], textAlign: "left"}}>{arr[12]}</p>
+              <h5 className="hh11" style={{ fontSize: arr[21], fontWeight: "black", fontFamily: "Lato", lineHeight: "54px", letterSpacing: "1%", fontSize: "50px", marginBottom: "26px" }}>Gamified Experience</h5>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", fontWeight: "semi-bold", fontSize: "24px", lineHeight: "54px" }}>{arr[14]}</h4>
+              <p style={{ color: arr[8], marginBottom: "39px", fontSize: arr[9], textAlign: "justify", fontFamily: "Inter", fontSize: "20px", lineHeight: "32px", letterSpacing: "1.5%", color: "#a5a5a7" }}>{arr[12]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", fontWeight: "semi-bold", fontSize: "24px", lineHeight: "54px" }}>{arr[15]}</h4>
+              <p style={{ color: arr[8], fontSize: arr[9], textAlign: "justify", fontFamily: "Inter", fontSize: "20px", lineHeight: "32px", letterSpacing: "1.5%", color: "#a5a5a7",marginBottom: "82px" }}>{arr[12]}</p>
             </div>
             <div className="d">
               <img className="img1" src={img1} alt="none" />
@@ -95,17 +95,17 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div className="page3" id="features">
+        <div className="page3" style={{ paddingBottom: "0" }} id="features">
           <div className="iflex">
             <div className="e">
               <img className="img2" src={img2} alt="none" />
             </div>
             <div className="f">
-              <h2 className="hh11s" style={{ fontSize: arr[21] }}>{arr[17]}</h2>
-              <h4 className="hh4" style={{ fontSize: arr[22],fontWeight: "1600" }}>{arr[18]}</h4>
-              <p style={{ color: arr[10], fontSize: arr[11], textAlign: "left"}}>{arr[16]}</p>
-              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[19]}</h4>
-              <p style={{ color: arr[10], fontSize: arr[11], textAlign: "left" }}>{arr[16]}</p>
+              <h2 className="hh11s" style={{ fontSize: arr[21], fontWeight: "800", fontFamily: "Inter", lineHeight: "54px", fontSize: "40px" }}>{arr[17]}</h2>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", lineHeight: "54px", fontSize: "24px" }}>{arr[18]}</h4>
+              <p style={{ color: arr[10], fontWeight: "500", fontSize: arr[11], textAlign: "justify", fontFamily: "Inter", lineHeight: "32px", fontSize: "18px" }}>{arr[16]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", lineHeight: "54px", fontSize: "24px" }}>{arr[19]}</h4>
+              <p style={{ color: arr[10], fontSize: arr[11], fontWeight: "500", textAlign: "justify", fontFamily: "Inter", lineHeight: "32px", fontSize: "18px" }}>{arr[16]}</p>
             </div>
           </div>
         </div>
@@ -113,11 +113,11 @@ class App extends React.Component {
         <div className="page5" id="pricing">
           <div className="iflex">
             <div className="g">
-              <h2 className="hh11" style={{ fontSize: arr[21] }}>{arr[5]}</h2>
-              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[2]}</h4>
-              <p style={{textAlign: "left"}}>{arr[4]}</p>
-              <h4 className="hh4" style={{ fontSize: arr[22] }}>{arr[3]}</h4>
-              <p style={{textAlign: "left"}}>{arr[4]}</p>
+              <h2 className="hh11" style={{ fontSize: arr[21], width: "552px", fontWeight: "800", fontFamily: "Inter", lineHeight: "54px", fontSize: "40px" }}>{arr[5]}</h2>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontWeight: "600", fontFamily: "Inter", lineHeight: "54px", fontSize: "24px" }}>{arr[2]}</h4>
+              <p style={{ textAlign: "justify", color: "#f1f2f6", fontWeight: "500", fontFamily: "Inter", lineHeight: "32px", fontSize: "18px", marginBottom: "40px" }}>{arr[4]}</p>
+              <h4 className="hh4" style={{ fontSize: arr[22], fontWeight: "600", fontFamily: "Inter", lineHeight: "54px", fontSize: "24px" }}>{arr[3]}</h4>
+              <p style={{ textAlign: "justify", color: "#f1f2f6", fontWeight: "500", fontFamily: "Inter", lineHeight: "32px", fontSize: "18px", marginBottom: "40px"  }}>{arr[4]}</p>
             </div>
             <div className="h">
               <img className="img3" src={img3} alt="none" />
@@ -136,15 +136,22 @@ class App extends React.Component {
           </div>
         </div>
 
+        <div className="grad3"></div>
         <div>
           <Navbar className="nav-color" sticky="bottom" bg="black" variant="dark">
             <Container>
               <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
               <Nav className="topnav-left">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#home">About</Nav.Link>
-                <Nav.Link href="#features">Blogs</Nav.Link>
-                <Nav.Link href="#pricing">Privacy Policy</Nav.Link>
+                <Nav.Link href="#home" style={{color: "#fff"}}>Home</Nav.Link>
+                <Nav.Link href="#home"style={{color: "#fff"}}>About</Nav.Link>
+                <Nav.Link href="#features"style={{color: "#fff"}}>Blogs</Nav.Link>
+                <Nav.Link href="#pricing" style={{color: "#fff"}}>Privacy Policy</Nav.Link>
+              </Nav>
+              <Nav className="topnav-center">
+                <Nav.Link href="#home" style={{color: "#fff"}}>Coming soon</Nav.Link>
+              </Nav>
+              <Nav className="topnav-right">
+                <Nav.Link href="#home" style={{color: "#fff"}}>	&copy; 2020 AbcBank. All rights reserved</Nav.Link>
               </Nav>
             </Container>
           </Navbar>

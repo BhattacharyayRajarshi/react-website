@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap);
+  font-weight: bolder;
+}
+
 @media only screen and (min-width: 1050px){ 
    .home{
     background-color: black;
@@ -18,18 +29,37 @@
       background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-weight: bolder;
+      font-weight: Regular;
+      padding-top: 0.6rem;
   }
 
   .grad1 {
     height: 2.2px;
-    width: 30%;
+    width: 29%;
     position:relative;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 0 auto; 
+    margin: 0 auto;
+    margin-bottom: 72px; 
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+  }
+
+  .grad3 {
+    height: 3.2px;
+    width: 100%;
+    position:relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0; 
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
@@ -66,12 +96,19 @@
     width: 40%;
     padding-top: 19rem;
     padding-right: 9rem;
-    right: 27%;
+    right: 67%;
     position:relative;
+    color: #dddddd;
   }
 
   .hh6{
-    padding-top: 1.6rem;
+    padding-top: -0.8rem;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 527px;
+    height: 66px;
+    
   }
 
   .nav-color{
@@ -108,20 +145,20 @@
   .c{
     display: inline-block;
     width: 40%;
-    padding-right: 7rem;
+    padding-right: 2rem;
   }
 
   .d{
     display: inline-block;
     justify-content: right;
     width: 40%;
-    padding-left: 5rem;
+    padding-left: 2rem;
   }
 
   .e{
     display: inline-block;
     width: 40%;
-    padding-right: 7rem;
+    padding-right: 0;
   }
 
   .f{
@@ -129,20 +166,20 @@
     justify-content: right;
     width: 40%;
     padding-bottom: 8rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
   }
 
   .g{
     display: inline-block;
     width: 40%;
-    padding-right: 7rem;
+    padding-right: 2rem;
   }
 
   .h{
     display: inline-block;
     justify-content: right;
     width: 40%;
-    padding-left: 5rem;
+    padding-left: 0;
   }
 
   .page5{
@@ -214,20 +251,19 @@
   }
 
   .img2{
-    padding-right: 27.8rem;
     position: relative;
-    right: 173px;
-    height: 600px;
-    width: 1200px;
+    right: 63px;
+    height: 468.38px;
+    width: 637px;
 
   }
 
   .img3{
     position: relative;
-    height: 100%;
-    width: 100%;
-    min-height: 600px;
-    min-width:200px;
+    height: 655px;
+    width: 625px;
+    min-height: 591px;
+    min-width:625px;
 
   }
 
@@ -239,20 +275,24 @@
   }
 
   .hh1{
-    font-weight: bold;
+    font-weight: medium;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: mixed;
+    height: 50px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Frank Ruhl Libre';
   }
 
   .hh11{
     font-weight: 700;
     padding-top: 2.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     text-align: left;
   }
 
   .hh11s{
-    font-weight: 700;
+    font-weight:900;
     padding-top: 2.5rem;
     padding-bottom: 3rem;
     text-align: center;
@@ -269,6 +309,11 @@
 
   .bt1{
     border-radius: 30px;
+  }
+
+  .btn-light{
+    background-color: #dddddd;
+    border-color: #dddddd;
   }
 
   .bt11{
@@ -412,8 +457,7 @@
 
  .page3{
    color: black;
-   padding-bottom: 6rem;
-   margin: 3.5rem;
+   margin: 1.5rem;
    padding-top: 6rem;
    text-align: center;
    flex-direction: row;
