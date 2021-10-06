@@ -1,35 +1,329 @@
-.home{
-  background-color: black;
-  color: antiquewhite;
-  padding-left: 7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: space-around;
-  padding-bottom: 6rem;
-  display: flex;
-  flex-direction: row;
+@media only screen and (min-width: 1050px){ 
+   .home{
+    background-color: black;
+    color: #fff;
+    padding-left: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .head1{
+    background: red;
+      background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+      background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+      background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+      background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bolder;
+  }
+
+  .grad1 {
+    height: 2.2px;
+    width: 30%;
+    position:relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+  }
+
+  .grad2 {
+    height: 2.2px;
+    width: 22%;
+    position:relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+  }
+
+  .b{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 4.5rem;
+  }
+
+  .a{
+    display: inline-block;
+    width: 40%;
+    padding-top: 19rem;
+    padding-right: 9rem;
+    right: 27%;
+    position:relative;
+  }
+
+  .hh6{
+    padding-top: 1.6rem;
+  }
+
+  .nav-color{
+    background-color: black;
+  }
+
+  .page2{
+    background-color: black;
+    color: #fff;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iflex{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iflex1{
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c{
+    display: inline-block;
+    width: 40%;
+    padding-right: 7rem;
+  }
+
+  .d{
+    display: inline-block;
+    justify-content: right;
+    width: 40%;
+    padding-left: 5rem;
+  }
+
+  .e{
+    display: inline-block;
+    width: 40%;
+    padding-right: 7rem;
+  }
+
+  .f{
+    display: inline-block;
+    justify-content: right;
+    width: 40%;
+    padding-left: 5rem;
+  }
+
+  .g{
+    display: inline-block;
+    width: 40%;
+    padding-right: 7rem;
+  }
+
+  .h{
+    display: inline-block;
+    justify-content: right;
+    width: 40%;
+    padding-left: 5rem;
+  }
+
+  .page5{
+    background-color: black;
+    color: #fff;
+    padding-bottom: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page3{
+    color: black;
+    padding-bottom: 6rem;
+    margin: 3.5rem;
+    padding-top: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vid{
+      position: relative;
+      text-align: right;
+      width: 65vw;
+      left: 50%;
+      bottom: 0;
+      height: 100%;
+      align-items: flex-end;
+      justify-content: flex-end;
+  }
+
+  .page4{
+    padding-top: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3rem;
+    align-items: center;
+    
+  }
+
+  .frnds{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.4rem;
+    padding-left: 7rem;
+  }
+
+  .tt{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Team{
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .sponsor{
+    padding-top: 2rem;
+    margin: 1.6rem;
+    height: 10rem;
+    width: 17rem;
+    display: inline-block;
+  }
+
+  .img2{
+    padding-right: 27.8rem;
+    position: relative;
+    right: 173px;
+    height: 600px;
+    width: 1200px;
+
+  }
+
+  .img3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    min-width:200px;
+
+  }
+
+  .hh4{
+    font-weight: 600;
+    font-size: 5px;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .hh1{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .hh11{
+    font-weight: 700;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+
+  .hh11s{
+    font-weight: 700;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .img1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 350px;
+    min-width: 200px;
+
+  }
+
+  .bt1{
+    border-radius: 30px;
+  }
+
+  .bt11{
+    padding-top: 4rem;
+  }
 }
 
-.head1{
-  background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bolder;
-}
 
-.grad1 {
-  height: 5px;
-  width: 42%;
+@media only screen and (max-width: 824px){ 
+  .home{
+   background-color: black;
+   color: #fff;
+   padding-left: 7rem;
+   font-family: Arial, Helvetica, sans-serif;
+   justify-content: space-around;
+   padding-bottom: 6rem;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .head1{
+   background: red;
+   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+   background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bolder;
+ }
+
+ .grad1 {
+   height: 2.2px;
+   width: 80%;
+   position:relative;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto; 
+   background: red; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+ }
+
+ .grad2 {
+  height: 2.2px;
+  width: 50%;
   position:relative;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
@@ -37,221 +331,187 @@
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
 
-.b{
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding-top: 4.5rem;
-}
+ .b{
+   position: absolute;
+   width: fit-content;
+   height: fit-content;
+   padding-right: 2rem;
+   left: 0;
+   top: 0;
+   padding-top: 4.5rem;
+ }
 
-.a{
-  display: block;
-  width: 40%;
-  padding-top: 19rem;
-  padding-right: 9rem;
-  right: 27%;
-  position:relative;
-}
+ .a{
+   display: flex;
+   flex-direction: column;
+   width: 140%;
+   padding-top: 19rem;
+   padding-right: 9rem;
+   right: 27%;
+   position:relative;
+ }
 
-.hh6{
-  padding-top: 1.6rem;
-}
+ .hh6{
+   padding-top: 1.6rem;
+ }
 
-.nav-color{
-  background-color: black;
-}
+ .nav-color{
+   background-color: black;
+ }
 
-.page2{
-  background-color: black;
-  color: antiquewhite;
-  padding-top: 8rem;
-  padding-bottom: 6rem;
+ .page2{
+   background-color: black;
+   color: #fff;
+   padding-top: 8rem;
+   padding-bottom: 6rem;
+   text-align: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .c{
+   text-align: center;
+ }
+
+ .d{
+   text-align: center;
+ }
+
+ .e{
+   text-align: center;
+ }
+
+ .f{
   text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+ }
 
-.iflex{
-  display: flex;
+ .g{
   text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+ }
 
-.iflex1{
-  display: flex;
-  text-align: left;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.c{
-  display: inline-block;
-  width: 40%;
-  padding-right: 7rem;
-}
-
-.d{
-  display: inline-block;
-  justify-content: right;
-  width: 40%;
-  padding-left: 5rem;
-}
-
-.e{
-  display: inline-block;
-  width: 40%;
-  padding-right: 7rem;
-}
-
-.f{
-  display: inline-block;
-  justify-content: right;
-  width: 40%;
-  padding-left: 5rem;
-}
-
-.g{
-  display: inline-block;
-  width: 40%;
-  padding-right: 7rem;
-}
-
-.h{
-  display: inline-block;
-  justify-content: right;
-  width: 40%;
-  padding-left: 5rem;
-}
-
-.page5{
-  background-color: black;
-  color: antiquewhite;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+ .h{
   text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+ }
 
-.page3{
-  color: black;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
-  text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+ .page5{
+   background-color: black;
+   color: #fff;
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+   text-align: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
 
-.vid{
-    position: relative;
-    text-align: right;
-    width: 65vw;
-    left: 50%;
-    bottom: 0;
-    height: 100%;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
+ .page3{
+   color: black;
+   padding-bottom: 6rem;
+   margin: 3.5rem;
+   padding-top: 6rem;
+   text-align: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
 
-.page4{
-  padding-top: 3rem;
-  font-family: 'Times New Roman', Times, serif;
-  padding-bottom: 3rem;
-  align-items: center;
-  
-}
+ .vid{
+     position: relative;
+     text-align: right;
+     width: 65vw;
+     left: 50%;
+     bottom: 0;
+     height: 100%;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
 
-.frnds{
+ .page4{
+   padding-top: 3rem;
+   font-family: 'Times New Roman', Times, serif;
+   padding-bottom: 3rem;
+   align-items: center;
+   
+ }
+
+ .frnds{
+   display: inline;
+
+   text-align: center;
+   width: 40%;
+ }
+
+ .tt{
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .Team{
+   font-weight: 700;
+   text-align: center;
+ }
+
+ .sponsor{
   display: inline-block;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  padding-left: 13rem;
-}
-
-.tt{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Team{
-  font-weight: 700;
-  text-align: center;
-}
-
-.sponsor{
   padding-top: 2rem;
-  height: 10rem;
-  width: 17rem;
-  display: inline-block;
-}
+  margin: 1.6rem;
+  height: 30%;
+  width: 30%;
+} 
 
-.img2{
-  padding-right: 17.8rem;
-  position: relative;
-  height: 150%;
-  width: 150%;
-  min-height: 280px;
-  min-width: 600px;
+ .img2{
+   position: relative;
+   height: 40%;
+   width: 40%;
+   min-height: 300px;
+   min-width:380px;
 
-}
+ }
 
-.img3{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  min-height: 600px;
-  min-width:200px;
+ .img3{
+   position: relative;
+   height: 100%;
+   width: 100%;
+   min-height: 600px;
+   min-width:100px;
 
-}
+ }
 
-.hh4{
-  font-weight: bold;
-  padding-top: 1rem;
-}
+ .hh4{
+   font-weight: 600;
+   font-size: 5px;
+   padding-top: 1rem;
+   text-align: left;
+ }
 
-.hh1{
-  font-weight: bold;
-  text-align: center;
-}
+ .hh1{
+   font-weight: bold;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+ }
 
-.hh11{
-  font-weight: bold;
-  padding-top: 2.5rem;
-}
+ .hh11{
+   font-weight: 700;
+   padding-top: 2.5rem;
+   padding-bottom: 1rem;
+   text-align: left;
+ }
 
-.img1{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  min-height: 350px;
-  min-width: 200px;
+ .img1{
+   position: relative;
+   height: 100%;
+   width: 100%;
+   min-height: 350px;
+   min-width: 200px;
 
-}
+ }
 
-.cell{
-  width : 45rem;
-}
+ .bt1{
+   border-radius: 30px;
+ }
 
-.cell1{
-  padding-left: 2rem;
-  padding-top: 2rem;
-  width : 45rem;
-  font-weight: 600;
-}
-
-.bt1{
-  border-radius: 30px;
-}
-
-.bt11{
-  padding-top: 4rem;
+ .bt11{
+   padding-top: 4rem;
+ }
 }
