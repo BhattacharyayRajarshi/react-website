@@ -365,6 +365,7 @@
    -webkit-text-fill-color: transparent;
    font-weight: bolder;
    width: 120%;
+   margin-bottom: 50px;
  }
 
  .grad1 {
@@ -420,7 +421,7 @@
  }
 
  .hh6{
-   padding-top: 1.6rem;
+   padding-top: 12rem;
  }
 
  .nav-color{
