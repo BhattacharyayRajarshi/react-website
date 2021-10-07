@@ -852,7 +852,7 @@
 
  .hh4{
    font-weight: 600;
-   font-size: 5px;
+   font-size: 19px;
    padding-top: 1rem;
    text-align: left;
  }
@@ -880,12 +880,16 @@
 
  .hh1{
    font-weight: bold;
+   font-size: 40px;
+   width: 80%;
+   padding-left: 3.7rem;
    text-align: center;
    font-family: 'Times New Roman', Times, serif;
  }
 
  .hh11{
    font-weight: 700;
+   font-size: 20px;
    padding-top: 2.5rem;
    padding-bottom: 1rem;
    text-align: left;
@@ -1122,7 +1126,7 @@
 
  .hh4{
    font-weight: 600;
-   font-size: 5px;
+   font-size: 15px;
    padding-top: 1rem;
    text-align: left;
  }
@@ -1157,6 +1161,7 @@
  .hh11{
    font-weight: 700;
    padding-top: 2.5rem;
+   font-size: 40px;
    padding-bottom: 1rem;
    text-align: left;
    width: 100%;
