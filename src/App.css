@@ -352,7 +352,7 @@
 }
 
 
-@media only screen and (max-width: 330px) and (max-width: 375px){
+@media only screen and (max-width: 330px){
   .home{
     background-color: black;
     color: #fff;
@@ -363,7 +363,22 @@
     display: flex;
     flex-direction: column;
   }
- 
+
+  .hello1{
+    font-size: 11px;
+    width: 70px;
+  }
+
+  .hello2{
+    font-size: 11px;
+    width: 60px;
+  }
+
+  .hello3{
+    font-size: 11px;
+    width: 60px;
+  }
+
   .head1{
     background: red;
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
@@ -373,8 +388,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    width: 120%;
-    font-size: 28px;
+    width: 190%;
+    font-size: 26px;
   }
  
   .grad1 {
@@ -431,6 +446,7 @@
  
   .hh6{
     padding-top: 0;
+    width: 160%;
   }
  
   .nav-color{
@@ -587,7 +603,7 @@
    }
  
    .head2{
-     width : 100%;
+     width : 180%;
    }
  
   .hh1{
@@ -623,7 +639,7 @@
 }
 
 
-@media only screen and (max-width: 376px){ 
+@media only screen and (min-width: 331px) and (max-width: 376px){ 
   .home{
    background-color: black;
    color: #fff;
@@ -893,7 +909,7 @@
  }
 }
 
-@media only screen and (max-width: 755px){ 
+@media only screen and (min-width: 377px) and (max-width: 755px){ 
   .home{
    background-color: black;
    color: #fff;
