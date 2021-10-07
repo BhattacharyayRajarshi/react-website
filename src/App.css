@@ -366,17 +366,17 @@
 
   .hello1{
     font-size: 11px;
-    width: 70px;
+    width: 60px;
   }
 
   .hello2{
     font-size: 11px;
-    width: 60px;
+    width: 45px;
   }
 
   .hello3{
     font-size: 11px;
-    width: 60px;
+    width: 45px;
   }
 
   .head1{
@@ -388,7 +388,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    width: 190%;
+    width: 250%;
     font-size: 26px;
   }
  
@@ -603,7 +603,7 @@
    }
  
    .head2{
-     width : 180%;
+     width : 290%;
    }
  
   .hh1{
@@ -985,7 +985,7 @@
    display: flex;
    flex-direction: column;
    width: 140%;
-   padding-top: 12rem;
+   padding-top: 18rem;
    padding-right: 9rem;
    right: 100px;
    position:relative;
@@ -1185,7 +1185,7 @@
  }
 }
 
-@media only screen and (min-width: 756px) and (max-width: 1049px){ 
+@media only screen and (min-width: 756px) and (max-width: 1023px){ 
   .home{
    background-color: black;
    color: #fff;
@@ -1256,7 +1256,7 @@
    display: flex;
    flex-direction: column;
    width: 140%;
-   padding-top: 12rem;
+   padding-top: 25rem;
    padding-right: 9rem;
    right: 100px;
    position:relative;
@@ -1264,6 +1264,7 @@
 
  .hh6{
    padding-top: 0;
+   width: 90%;
  }
 
  .nav-color{
@@ -1453,4 +1454,275 @@
  .bt11{
    padding-top: 4rem;
  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1049px){ 
+  .home{
+    background-color: black;
+    color: #fff;
+    padding-left: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .head1{
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    width: 120%;
+    font-size: 28px;
+  }
+ 
+  .grad1 {
+    height: 2.2px;
+    width: 80%;
+    position:relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+  }
+ 
+  .grad2 {
+   height: 2.2px;
+   width: 50%;
+   position:relative;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto; 
+   background: red; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+ }
+ 
+  .b{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 2rem;
+    left: 0;
+    top: 0;
+    padding-top: 4.5rem;
+  }
+ 
+  .a{
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    padding-top: 34rem;
+    padding-right: 9rem;
+    right: 100px;
+    position:relative;
+  }
+ 
+  .hh6{
+    padding-top: 0;
+  }
+ 
+  .nav-color{
+    background-color: black;
+  }
+ 
+  .page2{
+    background-color: black;
+    color: #fff;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .c{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+  }
+ 
+  .d{
+    text-align: center;
+  }
+ 
+  .e{
+    text-align: center;
+  }
+ 
+  .f{
+   text-align: center;
+   margin-bottom: 8.4rem;
+  }
+ 
+  #basic-nav-dropdown{
+    color: #fff;
+  }
+ 
+  .g{
+   text-align: center;
+   padding-left: 2rem;
+   padding-right: 1.5rem;
+  }
+ 
+  .h{
+   text-align: center;
+  }
+ 
+  .page5{
+    background-color: black;
+    color: #fff;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .page3{
+    color: black;
+    margin: 1.5rem;
+    padding-top: 6rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .vid{
+      position: relative;
+      text-align: right;
+      width: 90%;
+      left: 10%;
+      bottom: 0;
+      height: 200%; 
+  }
+ 
+  .page4{
+    padding-top: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3rem;
+    align-items: center;
+    
+  }
+ 
+  .frnds{
+    display: inline;
+ 
+    text-align: center;
+    width: 40%;
+  }
+ 
+  .tt{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .Team{
+    font-weight: 700;
+    text-align: center;
+  }
+ 
+  .sponsor{
+   display: inline-block;
+   padding-top: 2rem;
+   margin: 1.6rem;
+   height: 30%;
+   width: 30%;
+ } 
+ 
+  .img2{
+    position: relative;
+    height: 33%;
+    width: 33%;
+    min-height: 200px;
+    min-width:280px;
+ 
+  }
+ 
+  .img3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    min-width:100px;
+ 
+  }
+ 
+  .hh4{
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 1rem;
+    text-align: left;
+  }
+ 
+   .grad3{
+     height: 3.2px;
+     width: 100%;
+     position:relative;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     margin-bottom: 0; 
+     background: red; /* For browsers that do not support gradients */
+     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+   }
+ 
+   .head2{
+     width : 100%;
+   }
+ 
+  .hh1{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  .hh11{
+    font-weight: 700;
+    padding-top: 2.5rem;
+    font-size: 40px;
+    padding-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+  }
+ 
+  .img1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 350px;
+    min-width: 200px;
+ 
+  }
+ 
+  .bt1{
+    border-radius: 30px;
+  }
+ 
+  .bt11{
+    padding-top: 4rem;
+  }
 }
