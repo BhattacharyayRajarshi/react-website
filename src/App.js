@@ -5,7 +5,7 @@ import * as firebase from '../node_modules/firebase/app';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
-import { Button, Nav, Container, NavbarBrand, Navbar, NavLink, } from 'react-bootstrap';
+import { Button, Nav, Container, NavbarBrand, Navbar, NavLink, NavDropdown } from 'react-bootstrap';
 import img1 from './img1.jpeg';
 import img2 from './img2.jpeg';
 import img3 from './img3.jpeg';
@@ -52,9 +52,9 @@ class App extends React.Component {
               <Navbar.Brand href="#home" style={{ fontFamily: "Work Sans", fontWeight: "mixed", color: "#dddddd" }}>     <h1><b><i>Abc</i></b>Bank</h1></Navbar.Brand>
               <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
               <Nav className="topnav-right">
-                <Nav.Link href="#home" className="hello1" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px" }}>Features</Nav.Link>
-                <Nav.Link href="#features" className="hello2" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px" }}>How it Works</Nav.Link>
-                <Nav.Link href="#pricing" className="hello3" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px" }}>Our Team</Nav.Link>
+                <Nav.Link href="#home" className="hello1" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px", paddingBottom: "3.3px" }}>Features</Nav.Link>
+                <Nav.Link href="#features" className="hello2" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px", marginBottom: "3.3px" }}>How it Works</Nav.Link>
+                <Nav.Link href="#pricing" className="hello3" style={{ fontFamily: "Inter", fontWeight: "bold", color: "#FFFFFF", height: "30px", marginBottom: "3.3px" }}>Our Team</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
@@ -68,7 +68,7 @@ class App extends React.Component {
               </video>
             </div>
             <div className="a">
-              <h5 style={{ fontSize: arr[23], paddingBottom: "20px", lineHeight: "24px", letterSpacing: "2%", color: "#fdfdfd", fontWeight: "Regular", fontSize: "24px", width: "474px", height: "24px", fontFamily: "Inter" }}>{arr[0]}</h5>
+              <h5 className="head2" style={{ fontSize: arr[23], paddingBottom: "20px", lineHeight: "24px", letterSpacing: "2%", color: "#fdfdfd", fontWeight: "Regular", fontSize: "24px", height: "24px", fontFamily: "Inter" }}>{arr[0]}</h5>
               <h5 className="head1" style={{ marginBottom: "30px", lineHeight: "65px", letterSpacing: "2%", fontWeight: "100px", height: "130px", fontFamily: "Inter" }}>{arr[1]}</h5>
               <h6 className="hh6" >{arr[24]}</h6>
               <div className="bt11">
@@ -142,17 +142,17 @@ class App extends React.Component {
           <Navbar className="nav-color" sticky="bottom" bg="black" variant="dark">
             <Container>
               <Navbar.Toggle aria-controls="-navbar-nav" className="order-md-1 order-0" />
-              <Nav className="topnav-left">
-                <Nav.Link href="#home" style={{ color: "#fff" }}>Home</Nav.Link>
-                <Nav.Link href="#home" style={{ color: "#fff" }}>About</Nav.Link>
-                <Nav.Link href="#features" style={{ color: "#fff" }}>Blogs</Nav.Link>
-                <Nav.Link href="#pricing" style={{ color: "#fff" }}>Privacy Policy</Nav.Link>
-              </Nav>
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#home">Home</NavDropdown.Item>
+                <NavDropdown.Item href="#home">About</NavDropdown.Item>
+                <NavDropdown.Item href="#features">Blog</NavDropdown.Item>
+                <NavDropdown.Item href="#pricing">Privacy Policy</NavDropdown.Item>
+              </NavDropdown>
               <Nav className="topnav-center">
                 <Nav.Link href="#home" style={{ color: "#fff" }}>Coming soon</Nav.Link>
               </Nav>
               <Nav className="topnav-right">
-                <Nav.Link href="#home" style={{ color: "#fff" }}>	&copy; 2020 AbcBank. All rights reserved</Nav.Link>
+                <Nav.Link href="#home" style={{ color: "#fff", paddingLeft: "6px" }}>	&copy; 2020 AbcBank. All rights reserved</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
