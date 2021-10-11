@@ -576,6 +576,7 @@
   .page4{
     padding-top: 3rem;
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 49px;
     padding-bottom: 3rem;
     align-items: center;
     
@@ -594,6 +595,7 @@
   }
  
   .Team{
+    padding-right: 30px;
     font-weight: 700;
     text-align: center;
   }
@@ -859,6 +861,7 @@
 
  .page4{
    padding-top: 3rem;
+   padding-left: 49px;
    font-family: 'Times New Roman', Times, serif;
    padding-bottom: 3rem;
    align-items: center;
@@ -878,6 +881,7 @@
  }
 
  .Team{
+   padding-right: 30px;
    font-weight: 700;
    text-align: center;
  }
