@@ -87,7 +87,7 @@ class App extends React.Component {
               <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", fontWeight: "semi-bold", fontSize: "24px", lineHeight: "54px" }}>{arr[14]}</h4>
               <p className="p2para" style={{ color: arr[8], marginBottom: "39px", fontSize: arr[9], textAlign: "justify", fontFamily: "Inter", fontSize: "20px", lineHeight: "32px", letterSpacing: "1.5%", color: "#a5a5a7" }}>{arr[12]}</p>
               <h4 className="hh4" style={{ fontSize: arr[22], fontFamily: "Inter", fontWeight: "semi-bold", fontSize: "24px", lineHeight: "54px" }}>{arr[15]}</h4>
-              <p className="p2para" style={{ color: arr[8], fontSize: arr[9], textAlign: "justify", fontFamily: "Inter", fontSize: "20px", lineHeight: "32px", letterSpacing: "1.5%", color: "#a5a5a7", marginBottom: "82px" }}>{arr[12]}</p>
+              <p className="p2para" style={{ color: arr[8], fontSize: arr[9], textAlign: "justify", fontFamily: "Inter", fontSize: "20px", lineHeight: "32px", letterSpacing: "1.5%", color: "#a5a5a7"}}>{arr[12]}</p>
             </div>
           <div className="d">
             <img className="img1" src={img1} alt="none" />
